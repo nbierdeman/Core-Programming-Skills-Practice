@@ -164,4 +164,13 @@
 # 10. Use a nested loop to convert an array of string arrays into a single string.
 #     For example, [["a", "man"], ["a", "plan"], ["a", "canal"], ["panama"]] becomes "amanaplanacanalpanama".
 
+# array = [["a", "man"], ["a", "plan"], ["a", "canal"], ["panama"]]
+# combined = ""
+# array.each do |element|
+#   element.each do |element|
+#     combined += element
+#   end
+# end
+# p combined
+
 # SOLUTIONS: https://gist.github.com/peterxjang/af8985dc4fb07ea14b4bd6ba41cb08f8
