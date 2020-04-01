@@ -83,6 +83,23 @@
 #  6. Use a nested loop with two arrays of numbers to create a new array of the sums of each combination of numbers.
 #     For example, [1, 2] and [6, 7, 8] becomes [7, 8, 9, 8, 9, 10].
 
+# array1 = [1, 2]
+# array2 = [6, 7, 8]
+# new_array = []
+# outer_index = 0
+# while outer_index < array1.length
+#   num1 = array1[outer_index]
+#   inner_index = 0
+#   while inner_index < array2.length
+#     num2 = array2[inner_index]
+#     sum = num1 + num2
+#     new_array << sum
+#     inner_index += 1
+#   end
+#   outer_index += 1
+# end
+# p new_array
+
 #  7. Use a nested loop with an array of numbers to compute an array with every combination of products from each number.
 #     For example, [2, 8, 3] becomes [4, 16, 6, 16, 64, 24, 6, 24, 9].
 
